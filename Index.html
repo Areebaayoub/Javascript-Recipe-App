@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Recipe App</h1>
+      <form>
+        <input type="text" placeholder="Search for Recipe..." class="searchBox">
+        <button type="submit" class="searchbutton">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="recipe-container"></div>
+      <h2>Discover Delicious Meals By Typing Above..</h2>
+      <img src="images/recipe.png" alt="Search icon" class="start-image" />
+
+      
+      <div class="recipe-details">
+        <button class="recipe-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="recipe-details-content"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
